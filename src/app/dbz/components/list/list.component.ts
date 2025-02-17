@@ -22,6 +22,8 @@ export class ListComponent {
 
   onDeleteCharacter( id?: string ):void {
 
+    console.log('Prueba')
+
     if ( !id ) return;
     this.onDelete.emit( id );
   }
